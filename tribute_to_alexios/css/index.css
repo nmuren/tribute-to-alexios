@@ -1,14 +1,15 @@
 /* CSS Document */
-
-
-#tribute-info p {
-	text-indent: 3rem;
-}
-
 html {
-	background: #FFCCCC;
+    background: #FFCCCC;
 }
-
 body {
-	border-width: medium;
+    border-width: medium;
+}
+#tribute-info article p {
+    text-indent: 3em;
+}
+#tribute-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 2em;
 }
