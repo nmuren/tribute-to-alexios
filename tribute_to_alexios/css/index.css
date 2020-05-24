@@ -13,3 +13,15 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 2em;
 }
+/*
+
+Codepen doesn't look happy with Bootsrat image alignment
+so I made a small addition as follows...
+
+https://codepen.io/nmuren/full/ExVMeKv
+
+#image{
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+}*/
